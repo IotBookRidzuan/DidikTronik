@@ -1,6 +1,6 @@
 //  Isytiharkan pin untuk Butang dan LED
-int buttonPin = 32;
-int LED = 26;
+int buttonPin = 12;
+int LED = 13;
 
 void setup() {
    // Tentukan pin #12 sebagai input dan aktifkan internal pull-up resistor
