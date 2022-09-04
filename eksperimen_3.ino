@@ -25,9 +25,9 @@ void loop()
   Serial.println(" F");
   
    if (celsius > 34) {
-    digitalWrite(2, HIGH);
+    digitalWrite(2, LOW);
     digitalWrite(3, LOW);
-    digitalWrite(4, LOW);
+    digitalWrite(4, HIGH);
     Serial.println("Suhu Panas");
   }
   else if (celsius >= 30) {
@@ -38,9 +38,9 @@ void loop()
   }
 
   else {
-    digitalWrite(2, LOW);
+    digitalWrite(2, HIGH);
     digitalWrite(3, LOW);
-    digitalWrite(4, HIGH);
+    digitalWrite(4, LOW);
     Serial.println("Suhu Sejuk");
   }
   delay(1000); 
